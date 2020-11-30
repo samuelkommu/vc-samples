@@ -20,7 +20,8 @@
 #
 # Purpose:  vMotion to a specific VIF
 #
-# Slighlty modified version of https://github.com/dixonly/samples/blob/main/vmotion.py to allow VIF
+# Modified version of https://github.com/dixonly/samples/blob/main/vmotion.py to allow using VIF for vMotion during V2T Migration
+# Migration Coordinator's Modular Migration feature.
 # Note:  Excpects resource pool "nsxt" on destination cluster.  This is hard coded and should be fixed at some point.
 #
 
